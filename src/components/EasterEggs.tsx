@@ -136,7 +136,7 @@ const VIEW_SOURCE_LINES: { type: "comment" | "code" | "ascii" | "blank" | "headi
   { type: "code", text: "  '~':            'Terminal with 15+ commands'," },
   { type: "code", text: "  'Konami Code':  '↑↑↓↓←→←→BA → CRT retro mode'," },
   { type: "code", text: "  '10x click':    'Rapid click detector toast'," },
-  { type: "code", text: "  'Logo x5':      'Text scramble on VM-INTERFACE'," },
+  { type: "code", text: "  'Logo x5':      'Text scramble on SH-INTERFACE'," },
   { type: "code", text: "  '/secret':      'Hidden developer notes page'," },
   { type: "code", text: "  'Idle 30s':     'Screen dims + terminal prompt'," },
   { type: "code", text: "  'matrix':       'Terminal cmd → Matrix rain'," },
@@ -225,7 +225,7 @@ const ViewSourceOverlay = ({ onClose }: { onClose: () => void }) => {
             <div className="w-3 h-3 rounded-full bg-terminal-green/60" />
           </div>
           <span className="font-mono text-xs text-primary tracking-widest ml-2">
-            view-source://vm-interface
+            view-source://sh-interface
           </span>
         </div>
         <div className="flex items-center gap-4">
