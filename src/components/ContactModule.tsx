@@ -82,10 +82,13 @@ const ContactModule = () => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { _gotcha, ...payload } = form;
       const res = await fetch(profile.contact.formAction, {
-        method: "POST",
-        body: JSON.stringify(payload),
-        redirect: "follow",
-      });
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "application/json",
+  },
+  body: JSON.stringify(payload),
+});
       const body = await res.json();
       if (body.result === "success") {
         setSubmitted(true);
