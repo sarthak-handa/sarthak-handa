@@ -46,9 +46,13 @@ const useKonamiCode = () => {
 /* ─── View Source Easter Egg ─── */
 const VIEW_SOURCE_LINES: { type: "comment" | "code" | "ascii" | "blank" | "heading"; text: string }[] = [
   { type: "ascii", text: "/**" },
-  { type: "ascii", text: " *  ╦  ╦╔╦╗   ╦╔╗╔╔╦╗╔═╗╦═╗╔═╗╔═╗╔═╗╔═╗" },
-  { type: "ascii", text: " *  ╚╗╔╝║║║───║║║║ ║ ║╣ ╠╦╝╠╣ ╠═╣║  ║╣" },
-  { type: "ascii", text: " *   ╚╝ ╩ ╩   ╩╝╚╝ ╩ ╚═╝╩╚═╚  ╩ ╩╚═╝╚═╝  v3.2" },
+{ type: "ascii", text: " /** " },
+{ type: "ascii", text: "  ███████╗██╗  ██╗" },
+{ type: "ascii", text: "  ██╔════╝██║  ██║" },
+{ type: "ascii", text: "  ███████╗███████║" },
+{ type: "ascii", text: "  ╚════██║██╔══██║" },
+{ type: "ascii", text: "  ███████║██║  ██║" },
+{ type: "ascii", text: "  ╚══════╝╚═╝  ╚═╝   v3.2" },
   { type: "ascii", text: " *" },
   { type: "ascii", text: " *  You found the source. Nice." },
   { type: "ascii", text: " *  This isn't the real source — that's on GitHub." },
@@ -150,7 +154,7 @@ const VIEW_SOURCE_LINES: { type: "comment" | "code" | "ascii" | "blank" | "headi
   { type: "blank", text: "" },
 
   { type: "comment", text: "// ──────────────────────────────────────────────────────────" },
-  { type: "comment", text: "// Built by Vaibhav Mahindru — github.com/vaibhavmahindru" },
+  { type: "comment", text: "// Built by sarthak Handa — github.com/sarthak-handa" },
   { type: "comment", text: "// If you're reading this, we should probably work together." },
   { type: "comment", text: "// ──────────────────────────────────────────────────────────" },
 ];
