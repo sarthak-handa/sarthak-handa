@@ -2,7 +2,7 @@
 
 A developer portfolio built as a command-center interface. React + TypeScript + Tailwind CSS, with GSAP scroll animations, a Canvas 2D particle mesh, live GitHub integration, interactive system graph, terminal overlay, and multiple easter eggs.
 
-**Original by [Vaibhav Mahindru](https://github.com/vaibhavmahindru)** · [Live](https://vaibhavmahindru.netlify.app)
+**Original by [Sarthak Handa](https://github.com/sarthak-handa)** · [Live](https://sarthakhanda.in)
 
 ---
 
@@ -10,8 +10,8 @@ A developer portfolio built as a command-center interface. React + TypeScript + 
 
 If you fork or use this code, **please credit the original author**:
 
-- **Original:** [Vaibhav Mahindru](https://github.com/vaibhavmahindru)
-- **Repository:** [github.com/vaibhavmahindru/portfolio-v2.0](https://github.com/vaibhavmahindru/portfolio-v2.0)
+- **Original:** [Vaibhav Mahindru](https://github.com/sarthak-handa)
+- **Repository:** [github.com/vaibhavmahindru/portfolio-v2.0](https://github.com/sarthak-handa/sarthakhanda)
 
 Keep the LICENSE file and this attribution in your fork. A link back or attribution in your README is appreciated.
 
