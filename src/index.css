@@ -13,21 +13,21 @@
     --card-foreground: 0 0% 98%;
     --popover: 0 0% 25%;
     --popover-foreground: 0 0% 98%;
-    --primary: 158 64% 51%;
+    --primary: 0 72% 45%;
     --primary-foreground: 165 91% 9%;
     --secondary: 0 0% 45%;
     --secondary-foreground: 0 0% 98%;
     --muted: 0 0% 45%;
     --muted-foreground: 0 0% 65%;
-    --glow: 158 64% 51%;
+    --glow: 0 72% 45%;
     --grid-line: 200 30% 12%;
-    --accent: 178 84% 10%;
-    --accent-foreground: 172 66% 50%;
+    --accent: 0 40% 12%;
+    --accent-foreground: 0 70% 60%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 85% 97%;
     --border: 0 0% 32%;
     --input: 0 0% 32%;
-    --ring: 158 64% 51%;
+    --ring: 0 72% 45%;
     --radius: 0.75rem;
 
     /* Custom tokens */
@@ -44,12 +44,12 @@
     --chart-5: 0 0% 45%;
     --sidebar: 0 0% 14%;
     --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 158 64% 51%;
+    --sidebar-primary: 0 72% 45%;
     --sidebar-primary-foreground: 165 91% 9%;
     --sidebar-accent: 172 66% 50%;
     --sidebar-accent-foreground: 178 84% 10%;
     --sidebar-border: 0 0% 32%;
-    --sidebar-ring: 158 64% 51%;
+    --sidebar-ring: 0 72% 45%;
     --font-sans: 'Work Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
     --font-mono: 'Inconsolata', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
     --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
