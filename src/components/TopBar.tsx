@@ -20,7 +20,7 @@ const TopBar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [logoText, setLogoText] = useState(`VM-INTERFACE v${profile.version}`);
+  const [logoText, setLogoText] = useState(`SH-INTERFACE v${profile.version}`);
   const logoClickCount = useRef(0);
   const logoResetTimer = useRef<ReturnType<typeof setTimeout>>();
 
