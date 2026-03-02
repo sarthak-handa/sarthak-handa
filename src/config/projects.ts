@@ -269,55 +269,57 @@ export const projects: Project[] = [
     ],
   },
 
-  // ─── 5. Client Web Platforms (Rack & Roll + TheraChef) ──────────────────────
+  // ─── 5. VSS SALESCO — Digital Infrastructure & Analytics ───────────────────
   {
-    slug: "client-web-platforms",
-    name: "Client Web Platforms",
+    slug: "vss-salesco-digital-infrastructure",
+    name: "VSS SALESCO — Digital Infrastructure & Analytics",
     status: "PRODUCTION",
-    latency: "~150ms",
-    scale: "Consumer",
-    role: "Full-Stack Developer",
+    latency: "Web Deployment",
+    scale: "Business-Level",
+    role: "Full-Stack Developer & Digital Systems Architect",
+
     tagline:
-      "Production frontend websites for consumer brands — Rack & Roll and TheraChef.",
+      "Built complete digital presence and operational reporting structure for a 20-year security & automation firm.",
+
     problem:
-      "Multiple clients needed modern, responsive web platforms — Rack & Roll required a product-focused site to showcase and sell products, while TheraChef needed a content-driven site with clean navigation and engaging presentation. Both required full lifecycle delivery from design through deployment.",
+      "The company lacked structured digital infrastructure including website presence, standardized quotations, analytics tracking, and discoverability.",
+
     approach:
-      "Designed and built responsive, mobile-first web platforms for each client. Handled the full project lifecycle including frontend implementation, structured information architecture, asset optimization, responsive design, hosting on Netlify, domain and DNS configuration, and performance tuning.",
+      "Developed website from scratch, structured SEO foundation, optimized analytics tracking, standardized invoicing & quotation formats, created business email infrastructure, and strengthened online credibility.",
+
     architecture:
-      "Design → Frontend Build → Asset Optimization → Responsive Layout → Netlify Deployment → CDN.",
+      "Website Development → SEO Structuring → Analytics Setup → Quotation Standardization → Business Email & Google Presence.",
+
     results:
-      "Delivered two production-grade websites — both live and serving real users. Rack & Roll drives product engagement with a mobile-first design. TheraChef delivers structured content with clean navigation. Both achieve fast load times via CDN-backed Netlify hosting.",
+      "Improved discoverability, professional documentation, reporting clarity, and online credibility with 15+ five-star reviews.",
+
     learnings:
-      "Product pages need to load fast and look great on mobile first — most traffic comes from phones. Content-heavy sites benefit from strong information architecture — structuring content well matters more than visual complexity. Full lifecycle ownership builds reliable delivery instincts.",
+      "Digital maturity requires systems — not just a website. Structured documentation and measurable visibility define credibility.",
+
     stack: [
       "HTML",
       "CSS",
       "JavaScript",
-      "Tailwind CSS",
-      "Responsive Design",
-      "Netlify",
-      "Figma",
       "SEO",
+      "Analytics",
+      "Business Email Setup"
     ],
+
     flow: [
-      "Design",
-      "Frontend Build",
-      "Asset Optimization",
-      "Responsive QA",
-      "Netlify Deploy",
-      "DNS Config",
-    ],
-    liveUrls: [
-      { label: "Rack & Roll", url: "https://rackandroll.netlify.app/" },
-      { label: "TheraChef", url: "https://spectacular-puppy-11875e.netlify.app/" },
-      { label: "ShreeLog", url: "https://shreelog.netlify.app/" },
-      { label: "Webinar Page", url: "https://webinar.moveai.in/" },
-    ],
+      "Website Build",
+      "SEO Implementation",
+      "Analytics Integration",
+      "Quotation Structuring",
+      "Digital Asset Setup"
+    ], 
+
+     liveUrl: "https://vsssalesco.in",
+
     metrics: [
-      { label: "Sites Delivered", value: "4" },
-      { label: "Status", value: "All Live" },
-      { label: "Design", value: "Mobile-first" },
-      { label: "Hosting", value: "Netlify CDN" },
+      { label: "Business Experience", value: "20+ Years" },
+      { label: "Google Reviews", value: "15+ 5★" },
+      { label: "Business Emails", value: "5 Configured" },
+      { label: "Digital Assets", value: "Fully Structured" }
     ],
   },
 
