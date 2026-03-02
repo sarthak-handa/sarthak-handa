@@ -1,5 +1,5 @@
 /**
- * Original by Vaibhav Mahindru — https://github.com/vaibhavmahindru
+ * Original by Sarthak Handa — https://github.com/sarthak-handa
  */
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
