@@ -1,5 +1,5 @@
 /**
- * Original by Vaibhav Mahindru — https://github.com/vaibhavmahindru
+ * Original by Sarthak Handa — https://github.com/sarthak-handa
  */
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
