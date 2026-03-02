@@ -598,7 +598,7 @@ const HeroSection = () => {
 
   // GitHub mini stats
   const ghUsername = useMemo(
-    () => profile.links.github.split("/").pop() ?? "vaibhavmahindru",
+    () => profile.links.github.split("/").pop() ?? "sarthak-handa",
     []
   );
   const ghStats = useGitHubMiniStats(ghUsername);
