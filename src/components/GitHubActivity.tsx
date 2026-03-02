@@ -285,7 +285,7 @@ const buildSvgCells = (data: ContribDay[]): { cells: HeatmapCell[]; cols: number
 
 /* ─── Component ─── */
 const GitHubActivity = () => {
-  const username = profile.links.github.split("/").pop() ?? "vaibhavmahindru";
+  const username = profile.links.github.split("/").pop() ?? "sarthak-handa";
   const { data, stats, loading } = useGitHubContributions(username);
 
   const { cells, cols } = useMemo(() => buildSvgCells(data), [data]);
