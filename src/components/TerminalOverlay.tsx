@@ -425,7 +425,7 @@ const TerminalOverlay = () => {
         addOutput(
           raw,
           [
-            `${c.bold("PING")} portfolio.vaibhav.dev (127.0.0.1):`,
+            `${c.bold("PING")} sarthakhanda.in (127.0.0.1):`,
             ...lines,
             ``,
             `--- ${c.primary("ping statistics")} ---`,
