@@ -48,7 +48,7 @@ export const profile = {
 
   contact: {
     email: "sarthakh23@gmail.com",
-    formAction: "https://script.google.com/macros/s/AKfycby7mCzrzccOqjbjgn0WEeAHiHauG8OPWCBWumlgW9Z_RMlOxT4RoEg80ue4fB8Y7i_F/exec", // TODO: Replace with your deployed Apps Script URL
+    formAction: "https://formspree.io/f/xkovlwyy", // TODO: Replace with your deployed Apps Script URL
   },
 
   // ─── D. Experience / Career Timeline ─────────────────────────────────────────
