@@ -119,7 +119,7 @@ const MagneticButton = ({
 /* ─── Typing Prompt ─── */
 const TypingPrompt = () => {
   const [text, setText] = useState("");
-  const fullText = "ssh vaibhav@cloud ~ deploying portfolio...";
+  const fullText = "ssh sarthak@cloud ~ deploying portfolio...";
   const [cursorVisible, setCursorVisible] = useState(true);
 
   useEffect(() => {
