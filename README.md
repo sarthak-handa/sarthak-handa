@@ -10,8 +10,8 @@ A developer portfolio built as a command-center interface. React + TypeScript + 
 
 If you fork or use this code, **please credit the original author**:
 
-- **Original:** [Vaibhav Mahindru](https://github.com/sarthak-handa)
-- **Repository:** [github.com/vaibhavmahindru/portfolio-v2.0](https://github.com/sarthak-handa/sarthakhanda)
+- **Original:** [Sarthak Handa](https://github.com/sarthak-handa)
+- **Repository:** [github.com/sarthak-handa/sarthakhanda]
 
 Keep the LICENSE file and this attribution in your fork. A link back or attribution in your README is appreciated.
 
@@ -86,8 +86,8 @@ public/
 
 ```bash
 # Clone the repository
-git clone https://github.com/vaibhavmahindru/portfolio-v2.0.git
-cd portfolio-v2.0
+git clone https://github.com/sarthak-handa/sarthakhanda.git
+cd sarthakhanda
 
 # Install dependencies
 npm install
