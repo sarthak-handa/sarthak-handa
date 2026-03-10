@@ -154,7 +154,7 @@ const VIEW_SOURCE_LINES: { type: "comment" | "code" | "ascii" | "blank" | "headi
   { type: "blank", text: "" },
 
   { type: "comment", text: "// ──────────────────────────────────────────────────────────" },
-  { type: "comment", text: "// Built by github.com/vaibhavmahindru" },
+  { type: "comment", text: "// Built by github.com/sarthak-handa" },
   { type: "comment", text: "// If you're reading this, we should probably work together." },
   { type: "comment", text: "// ──────────────────────────────────────────────────────────" },
 ];

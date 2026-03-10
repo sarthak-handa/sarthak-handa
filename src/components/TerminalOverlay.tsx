@@ -602,7 +602,7 @@ const TerminalOverlay = () => {
                   <div className="font-mono text-xs text-muted-foreground">
                     <p>
                       Welcome to{" "}
-                      <span className="text-primary">VM Terminal</span>. Type{" "}
+                      <span className="text-primary">SH Terminal</span>. Type{" "}
                       <span className="text-primary">"help"</span> to see
                       available commands.
                     </p>
@@ -658,15 +658,29 @@ export const TerminalHintBadge = () => {
   const [hasSeen, setHasSeen] = useState(false);
 
   useEffect(() => {
-    const seen = sessionStorage.getItem("vm-terminal-hint");
-    if (seen) setHasSeen(true);
-    else {
-      const t = setTimeout(() => {
-        sessionStorage.setItem("vm-terminal-hint", "1");
-        setHasSeen(true);
-      }, 8000);
-      return () => clearTimeout(t);
+    const legacyKey = "vm-terminal-hint";
+    const newKey = "sh-terminal-hint";
+
+    // Migrate legacy key so returning users aren't re-prompted
+    const legacySeen = sessionStorage.getItem(legacyKey);
+    if (legacySeen) {
+      sessionStorage.setItem(newKey, legacySeen);
+      setHasSeen(true);
+      return;
     }
+
+    const seen = sessionStorage.getItem(newKey);
+    if (seen) {
+      setHasSeen(true);
+      return;
+    }
+
+    const t = setTimeout(() => {
+      sessionStorage.setItem(newKey, "1");
+      setHasSeen(true);
+    }, 8000);
+
+    return () => clearTimeout(t);
   }, []);
 
   const handleClick = () => {

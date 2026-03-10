@@ -34,7 +34,7 @@ const TopBar = () => {
 
     if (logoClickCount.current >= 5) {
       logoClickCount.current = 0;
-      const original = `VM-INTERFACE v${profile.version}`;
+      const original = `SH-INTERFACE v${profile.version}`;
       let frame = 0;
       const interval = setInterval(() => {
         const output = original
