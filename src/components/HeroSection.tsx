@@ -823,7 +823,7 @@ const HeroSection = () => {
               <div className="min-w-0">
                 <p className="font-mono text-[10px] text-foreground font-medium truncate">@{ghUsername}</p>
                 <p className="font-mono text-[8px] text-muted-foreground/60 flex items-center gap-1">
-                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-green-500" />
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-primary" />
                   Active
                 </p>
               </div>
@@ -853,7 +853,7 @@ const HeroSection = () => {
                       style={{
                         height: `${h}%`,
                         backgroundColor: count > 0
-                          ? `hsl(158 64% ${35 + (count / max) * 16}%)`
+                          ? `hsl(0 64% ${35 + (count / max) * 16}%)`
                           : "hsl(0 0% 20%)",
                       }}
                     />

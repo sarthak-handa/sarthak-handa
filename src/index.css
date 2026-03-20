@@ -33,14 +33,14 @@
     /* Custom tokens */
     --surface: 230 12% 7%;
     --surface-hover: 230 12% 10%;
-    --terminal-green: 160 80% 45%;
-    --status-active: 160 80% 45%;
+    --terminal-green: 0 72% 45%;
+    --status-active: 0 72% 45%;
     --status-production: 200 100% 50%;
     --status-experimental: 35 90% 55%;
-    --chart-1: 156 71% 66%;
-    --chart-2: 141 76% 73%;
-    --chart-3: 170 76% 64%;
-    --chart-4: 81 84% 67%;
+    --chart-1: 0 74% 66%;
+    --chart-2: 0 78% 58%;
+    --chart-3: 8 82% 64%;
+    --chart-4: 14 88% 67%;
     --chart-5: 0 0% 45%;
     --sidebar: 0 0% 14%;
     --sidebar-foreground: 0 0% 98%;

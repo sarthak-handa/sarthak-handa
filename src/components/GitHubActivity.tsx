@@ -33,13 +33,13 @@ const addDays = (d: Date, n: number) => {
   return r;
 };
 
-/* ─── SVG Heatmap Colors (CSS HSL values matching --primary: 158 64% 51%) ─── */
+/* ─── SVG Heatmap Colors aligned with the red primary theme ─── */
 const CELL_COLORS: Record<number, string> = {
   0: "hsl(0 0% 18%)",       // empty / muted
-  1: "hsl(158 64% 20%)",    // light green
-  2: "hsl(158 64% 33%)",    // medium green
-  3: "hsl(158 64% 43%)",    // dark green
-  4: "hsl(158 64% 51%)",    // primary green
+  1: "hsl(0 64% 20%)",
+  2: "hsl(0 64% 33%)",
+  3: "hsl(0 64% 43%)",
+  4: "hsl(0 64% 51%)",
 };
 
 /* ─── Hook: fetch contributions ─── */
